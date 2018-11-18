@@ -1,0 +1,11 @@
+{
+  "name": "layout-laymo",
+  "version": "1.0.0",
+  "description": "A Layout Made with Html, Css, Javascript, Jquery & Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arslan Ameer",
+  "license": "ISC"
+}
