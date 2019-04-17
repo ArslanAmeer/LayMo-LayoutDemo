@@ -46,7 +46,7 @@ gulp.task('js-min', () => {
 });
 
 gulp.task('image-min', () => {
-    return gulp.src('src/assets/images/*')
+    return gulp.src('src/assets/images/*/**')
         .pipe(imagemin())
         .pipe(gulp.dest('dist/assets/images/'))
         .pipe(browsersync.stream());
